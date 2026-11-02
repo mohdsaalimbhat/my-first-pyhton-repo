@@ -1,6 +1,6 @@
 import time
 import tkinter as tk
-
+# Here is a simple digital clock implemented using Tkinter in Python. The clock updates every second to display the current time in hours, minutes, and seconds.
 def update_clock():
     current_time = time.strftime("%H:%M:%S")
     clock_label.config(text=current_time)
